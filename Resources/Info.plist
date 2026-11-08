@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>PixelCrop</string>
+    <key>CFBundleDisplayName</key>
+    <string>PixelCrop</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.mai.pixelcrop</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleExecutable</key>
+    <string>PixelCrop</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>26.0</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.photography</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSHumanReadableCopyright</key>
+    <string>© 2026 Mai. 个人使用。</string>
+    <key>NSSupportsAutomaticTermination</key>
+    <true/>
+    <key>NSSupportsSuddenTermination</key>
+    <false/>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>PixelCrop 需要访问照片以剪裁和导出。</string>
+    <key>NSDesktopFolderUsageDescription</key>
+    <string>PixelCrop 需要访问桌面以保存导出的图像。</string>
+    <key>NSDocumentsFolderUsageDescription</key>
+    <string>PixelCrop 需要访问文稿以保存导出的图像。</string>
+    <key>NSDownloadsFolderUsageDescription</key>
+    <string>PixelCrop 需要访问下载以保存导出的图像。</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeName</key>
+            <string>Image</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSHandlerRank</key>
+            <string>Default</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>public.jpeg</string>
+                <string>public.png</string>
+                <string>public.heic</string>
+                <string>org.webmproject.webp</string>
+                <string>public.image</string>
+            </array>
+        </dict>
+    </array>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>PixelCrop 不主动发送 Apple 事件，仅声明以备未来扩展。</string>
+</dict>
+</plist>
